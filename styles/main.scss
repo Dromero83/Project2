@@ -1,0 +1,113 @@
+@import "partials/colors";
+@import "partials/typography";
+@import "partials/mixins";
+
+$nav-padding: 15px 15px;
+$div-padding: 10px;
+$mobile-padding: 5px;
+
+body {
+  font-family: $title;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: $darker-background;
+}
+
+main {
+  margin: 25px;
+}
+
+header a {
+  color: $nav-text;
+  text-decoration: none;
+}
+
+.brand {
+  padding: $nav-padding;
+  text-decoration: underline;
+  overflow: hidden;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  text-align: center;
+  padding: $nav-padding;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+h1 {
+  @include orange-heading;
+  text-transform: none;
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.art-text {
+  @include article-text;
+  text-transform: none;
+}
+
+.container-1 {
+  @include div-section;
+  float: left;
+  width: 50%;
+}
+
+.pagehead {
+  line-height: 0.2cm;
+}
+
+.container-2 {
+  @include div-section;
+  float: right;
+  width: 50%;
+}
+
+footer {
+  @include div-section;
+  float: left;
+  width: 50%;
+}
+
+footer a {
+  color: $secondary-font-color;
+}
+
+@media (max-width: 800px) {
+  .brand {
+    text-align: center;
+    float: none;
+    padding: 5px;
+  }
+
+  .container-1 {
+    width: 100%;
+    float: none;
+    padding: $mobile-padding;
+  }
+
+  .container-2 {
+    width: 100%;
+    float: none;
+    padding: $mobile-padding;
+  }
+
+  footer {
+    float: none;
+    width: 100%;
+  }
+}

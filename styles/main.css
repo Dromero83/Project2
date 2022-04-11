@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #150300;
+}
+
+main {
+  margin: 25px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.brand {
+  padding: 15px 15px;
+  text-decoration: underline;
+  overflow: hidden;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Marck Script", cursive;
+  color: #db8d33;
+  text-transform: none;
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.art-text {
+  color: #575757;
+  font-size: 25px;
+  text-transform: none;
+}
+
+.container-1 {
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.pagehead {
+  line-height: 0.2cm;
+}
+
+.container-2 {
+  display: inline-block;
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
+footer {
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+footer a {
+  color: #db8d33;
+}
+
+@media (max-width: 800px) {
+  .brand {
+    text-align: center;
+    float: none;
+    padding: 5px;
+  }
+  .container-1 {
+    width: 100%;
+    float: none;
+    padding: 5px;
+  }
+  .container-2 {
+    width: 100%;
+    float: none;
+    padding: 5px;
+  }
+  footer {
+    float: none;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
