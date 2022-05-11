@@ -62,7 +62,7 @@ h2 {
 }
 
 .container-1 {
-  display: inline-block;
+  display: block;
   text-align: center;
   float: left;
   width: 50%;
@@ -73,14 +73,14 @@ h2 {
 }
 
 .container-2 {
-  display: inline-block;
+  display: block;
   text-align: center;
   float: right;
   width: 50%;
 }
 
 footer {
-  display: inline-block;
+  display: block;
   text-align: center;
   float: left;
   width: 50%;
