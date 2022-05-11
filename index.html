@@ -2,51 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content="The Place Restaurant is #1 in San Antonio"
-    />
-    <title>The Place Restaurant</title>
+    <title>Sass</title>
     <link rel="stylesheet" href="styles/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
   </head>
-
   <body>
-    <section class="hero">
-      <div class="with-backdrop">
-        <h2>Welcome To</h2>
-        <h1>The Place</h1>
-        <img src="assets/images/star-divider.svg" alt="star divider" />
-        <h3>Ready to be opened</h3>
-        <button
-          class="btn-menu animate__animated animate__bounceInDown animate__delay-2s"
-        >
-          Our Menu
-        </button>
+    <header>
+      <div class="brand">
+        <a href="#home"><b>The Place</b></a>
       </div>
-    </section>
-
-    <div class="burger-icon">
-      <img
-        src="assets/images/3075977.png"
-        alt="hamburger"
-        width="50"
-        height="50"
-      />
-    </div>
-    <section class="image-container">
-      <img
-        class="card"
-        src="https://via.placeholder.com/300.png/"
-        alt="image placeholder"
-      />
-    </section>
-
-    <script src="js/main.js"></script>
+      <nav>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#reservations">Reservations</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a class="active" href="#welcome">Welcome</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div class="container-1">
+          <section>
+            <div class="pagehead">
+              <h1>Discover</h1>
+              <h2>Our Story</h2>
+              <img src="assets\star.png" alt="star" />
+            </div>
+          </section>
+          <section class="art-text">
+            <p>
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts and visual
+              mockups.
+            </p>
+          </section>
+        </div>
+        <div class="container-2">
+          <figure>
+            <img src="assets\our-story.jpg" alt="photograph of The Place" />
+          </figure>
+        </div>
+      </article>
+      <footer>
+        <p><a href="Aboutus.html">About us</a></p>
+      </footer>
+    </main>
   </body>
 </html>

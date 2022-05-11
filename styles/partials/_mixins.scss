@@ -1,5 +1,17 @@
-@mixin font_type($family, $color, $size) {
-  font-family: $family;
-  color: $color;
-  font-size: $size;
+@import "colors";
+@import "typography";
+
+@mixin orange-heading {
+  font-family: $heading;
+  color: $secondary-font-color;
+}
+
+@mixin div-section {
+  display: inline-block;
+  text-align: center;
+}
+
+@mixin article-text {
+  color: $primary-font-color;
+  font-size: 25px;
 }
